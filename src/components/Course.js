@@ -22,8 +22,8 @@ const Course = (props) => {
           <span className='rating-count'>({rating_count})</span>
         </div>
         <div className='item-price'>
-          <span className='item-price-new'>${discounted_price}</span>
-          <span className='item-price-old'>${actual_price}</span>
+          <span className='item-price-new'>Rs{discounted_price}</span>
+          <span className='item-price-old'>Rs{actual_price}</span>
         </div>
       </div>
       <div className='item-btns flex'>
